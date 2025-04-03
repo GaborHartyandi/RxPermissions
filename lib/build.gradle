@@ -1,5 +1,8 @@
 apply plugin: 'com.android.library'
 apply from: 'jitpack.gradle'
+apply plugin: 'maven-publish'
+
+group = 'com.github.GaborHartyandi'
 
 android {
     compileSdkVersion rootProject.ext.compileSdkVersion
